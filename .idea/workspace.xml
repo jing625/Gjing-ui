@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f51c84-92ce-4cff-abd3-5db5ce5ffcb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,22 +51,22 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="28" />
-          <entry key="html" value="965" />
+          <entry key="html" value="976" />
           <entry key="js" value="266" />
           <entry key="json" value="2" />
           <entry key="md" value="110" />
-          <entry key="txt" value="242" />
-          <entry key="vue" value="1140" />
+          <entry key="txt" value="303" />
+          <entry key="vue" value="1311" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="965" />
+          <entry key="HTML" value="976" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="266" />
           <entry key="Markdown" value="78" />
-          <entry key="PLAIN_TEXT" value="302" />
-          <entry key="Vue.js" value="1140" />
+          <entry key="PLAIN_TEXT" value="363" />
+          <entry key="Vue.js" value="1311" />
         </counts>
       </usages-collector>
     </session>
@@ -124,20 +122,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="335">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/button-group.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="220">
+              <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -178,8 +176,8 @@
         <option value="$PROJECT_DIR$/src/icon.vue" />
         <option value="$PROJECT_DIR$/src/button.vue" />
         <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/button-group.vue" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -262,7 +260,7 @@
       <workItem from="1544673127734" duration="8650000" />
       <workItem from="1544753452641" duration="4379000" />
       <workItem from="1545012624728" duration="9712000" />
-      <workItem from="1545099562973" duration="6485000" />
+      <workItem from="1545099562973" duration="7649000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1544683543893</created>
@@ -327,11 +325,25 @@
       <option name="project" value="LOCAL" />
       <updated>1545123245654</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="创建 button-group 组件">
+      <created>1545126666197</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545126666197</updated>
+    </task>
+    <task id="LOCAL-00011" summary="检测 g-button-group 子元素是否为 button">
+      <created>1545127592791</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1545127592791</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30829000" />
+    <option name="totallyTimeSpent" value="31993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -373,7 +385,9 @@
     <MESSAGE value="更新button.vue 的样式" />
     <MESSAGE value="添加 loading icon" />
     <MESSAGE value="添加click 事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加click 事件" />
+    <MESSAGE value="创建 button-group 组件" />
+    <MESSAGE value="检测 g-button-group 子元素是否为 button" />
+    <option name="LAST_COMMIT_MESSAGE" value="检测 g-button-group 子元素是否为 button" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/button.js" />
@@ -410,13 +424,6 @@
     <entry file="file://$PROJECT_DIR$/src/button-group">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/icon.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/button.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -434,17 +441,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/icon.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="160">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/button-group.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="220">
+          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
