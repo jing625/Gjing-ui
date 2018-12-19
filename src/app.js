@@ -14,3 +14,6 @@ new Vue({
         loading3:false
     }
 })
+
+
+console.log(Button)
