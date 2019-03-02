@@ -8,11 +8,15 @@
     </button>
 </template>
 <script>
+    import Icon from './icon'
     export default {
         // props: ['icon', 'iconPosition']
+        components: {
+            'g-icon': Icon
+        },
         props: {
             icon: {},
-            loading:{
+            loading: {
                 type: Boolean,
                 default: false
             },
@@ -29,9 +33,14 @@
 </script>
 <style lang="scss">
     @keyframes spin {
-        0%{ transform: rotate(0deg)}
-        100%{ transform: rotate(360deg)}
+        0% {
+            transform: rotate(0deg)
+        }
+        100% {
+            transform: rotate(360deg)
+        }
     }
+
     .g-button {
         height: var(--button-height);
         font-size: var(--font-size);
@@ -71,7 +80,7 @@
                 order: 1;
             }
         }
-        > .loading{
+        > .loading {
             animation: spin 2s infinite linear
         }
     }
