@@ -15,7 +15,7 @@
         }
     }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
     .g-button-group{
         display: inline-flex;
         vertical-align: middle;

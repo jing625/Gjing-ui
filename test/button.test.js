@@ -6,10 +6,11 @@ Vue.config.productionTip = false
 Vue.config.devtools = false
 
 describe('Button', () => {
-    // BDD 行为驱动测试
+
     it('存在.', () => {
-        expect(Button).to.be.ok
+        expect(Button).to.exist
     })
+
     it('可以设置icon.', () => {
         const Constructor = Vue.extend(Button)
         const vm = new Constructor({
@@ -21,6 +22,7 @@ describe('Button', () => {
         expect(useElement.getAttribute('xlink:href')).to.equal('#i-settings')
         vm.$destroy()
     })
+
     it('可以设置loading.', () => {
         const Constructor = Vue.extend(Button)
         const vm = new Constructor({
@@ -34,6 +36,7 @@ describe('Button', () => {
         expect(useElements[0].getAttribute('xlink:href')).to.equal('#i-loading')
         vm.$destroy()
     })
+
     it('icon 默认的 order 是 1', () => {
         const div = document.createElement('div')
         document.body.appendChild(div)
@@ -48,6 +51,7 @@ describe('Button', () => {
         vm.$el.remove()
         vm.$destroy()
     })
+
     it('设置 iconPosition 可以改变 order', () => {
         const div = document.createElement('div')
         document.body.appendChild(div)
