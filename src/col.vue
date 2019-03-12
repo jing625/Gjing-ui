@@ -23,8 +23,8 @@
             colClass() {
                 // let {span, offset} = this
                 return [
-                    span && `col-${this.span}`,
-                    offset && `offset-${this.offset}`
+                    this.span && `col-${this.span}`,
+                    this.offset && `offset-${this.offset}`
                 ]
             },
             colStyle() {
