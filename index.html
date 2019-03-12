@@ -33,56 +33,76 @@
         }
     </style>
     <style>
-        .box {
-            margin: 20px;
-        }
+        /*.box {*/
+            /*margin: 20px;*/
+        /*}*/
+
     </style>
 </head>
 <body>
 <div id="app">
     <g-row>
-        <g-col>1</g-col>
-        <g-col>2</g-col>
-        <g-col>2</g-col>
-    </g-row>
-    <g-row gutter="20">
-        <g-col span="4" style="border: 1px solid green;">1</g-col>
-        <g-col span="20">2</g-col>
-    </g-row>
-    <g-row>
-        <g-col span="4">1</g-col>
-        <g-col span="18" offset="2">2</g-col>
+        <g-col span="6">
+            <g-row align="right">
+                <g-col>1</g-col>
+                <g-col>2</g-col>
+                <g-col>3</g-col>
+                <g-col>4</g-col>
+            </g-row>
+        </g-col>
+        <g-col span="18">
+            <g-row align="center">
+                <g-col>1</g-col>
+                <g-col>2</g-col>
+                <g-col>3</g-col>
+                <g-col>4</g-col>
+            </g-row>
+        </g-col>
     </g-row>
 
+    <!--<g-row>-->
+    <!--<g-col>1</g-col>-->
+    <!--<g-col>2</g-col>-->
+    <!--<g-col>2</g-col>-->
+    <!--</g-row>-->
+    <!--<g-row gutter="20">-->
+    <!--<g-col span="4" style="border: 1px solid green;">1</g-col>-->
+    <!--<g-col span="20">2</g-col>-->
+    <!--</g-row>-->
+    <!--<g-row>-->
+    <!--<g-col span="4">1</g-col>-->
+    <!--<g-col span="18" offset="2">2</g-col>-->
+    <!--</g-row>-->
 
-    <hr>
-    <div class="box">
-        <g-input value="张三" disabled></g-input>
-        <g-input value="李四" readonly></g-input>
-        <g-input value="小六"></g-input>
-    </div>
-    <div class="box">
-        <g-input v-model="message"></g-input>
-        <p>{{message}}</p>
-        <button @click="message+=1">+1</button>
-    </div>
-    <div class="box">
-        <g-button icon="settings" :loading="loading1" @click="loading1 = !loading1">
-            设置
-        </g-button>
-        <g-button icon="settings" icon-position="right" :loading="loading2" @click="loading2 = !loading2">
-            设置
-        </g-button>
-        <g-button icon="settings" icon-position="left" :loading="loading3" @click="loading3 = !loading3">
-            设置
-        </g-button>
-        <g-icon name="download"></g-icon>
-        <g-button-group>
-            <g-button icon="left">上一页</g-button>
-            <g-button>更多</g-button>
-            <g-button icon="right" icon-position="right">下一页</g-button>
-        </g-button-group>
-    </div>
+
+    <!--<hr>-->
+    <!--<div class="box">-->
+    <!--<g-input value="张三" disabled></g-input>-->
+    <!--<g-input value="李四" readonly></g-input>-->
+    <!--<g-input value="小六"></g-input>-->
+    <!--</div>-->
+    <!--<div class="box">-->
+    <!--<g-input v-model="message"></g-input>-->
+    <!--<p>{{message}}</p>-->
+    <!--<button @click="message+=1">+1</button>-->
+    <!--</div>-->
+    <!--<div class="box">-->
+    <!--<g-button icon="settings" :loading="loading1" @click="loading1 = !loading1">-->
+    <!--设置-->
+    <!--</g-button>-->
+    <!--<g-button icon="settings" icon-position="right" :loading="loading2" @click="loading2 = !loading2">-->
+    <!--设置-->
+    <!--</g-button>-->
+    <!--<g-button icon="settings" icon-position="left" :loading="loading3" @click="loading3 = !loading3">-->
+    <!--设置-->
+    <!--</g-button>-->
+    <!--<g-icon name="download"></g-icon>-->
+    <!--<g-button-group>-->
+    <!--<g-button icon="left">上一页</g-button>-->
+    <!--<g-button>更多</g-button>-->
+    <!--<g-button icon="right" icon-position="right">下一页</g-button>-->
+    <!--</g-button-group>-->
+<!--</div>-->
 
 
 </div>
