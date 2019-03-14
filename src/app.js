@@ -35,22 +35,23 @@ new Vue({
         message: 'hi'
     },
     created() {
-        this.$toast('<a href="qq.com">baidu</a>',
-            {
-                closeButton: {
-                    text: '知道了',
-                    callback: (toast) => {
-                        toast.log()
-                        console.log(123123)
-                    }
-                },
-                enableHtml: false,
-                position: 'bottom',
-            }
-        )
+
     },
     methods: {
         showToast() {
+            this.$toast('<a href="qq.com">baidu</a>',
+                {
+                    closeButton: {
+                        text: '知道了',
+                        callback: (toast) => {
+                            toast.log()
+                            console.log(123123)
+                        }
+                    },
+                    enableHtml: false,
+                    position: 'bottom',
+                }
+            )
         }
     }
 })
