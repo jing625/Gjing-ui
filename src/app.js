@@ -44,7 +44,8 @@ new Vue({
                         console.log(123123)
                     }
                 },
-                enableHtml: false
+                enableHtml: false,
+                position: 'bottom',
             }
         )
     },
