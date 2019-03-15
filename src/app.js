@@ -44,7 +44,7 @@ new Vue({
                     closeButton: {
                         text: '知道了',
                         callback: (toast) => {
-                            toast.log()
+                            // toast.log()  toast传过来之后可以调用toast的方法
                             console.log(123123)
                         }
                     },

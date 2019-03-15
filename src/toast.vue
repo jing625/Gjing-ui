@@ -78,12 +78,12 @@
             onClickClose() {
                 this.close()
                 if (this.closeButton && typeof this.closeButton.callback === 'function') {
-                    this.closeButton.callback(this)
+                    this.closeButton.callback(this)    //回调把 toast 传过去
                 }
             },
-            log() {
-                console.log('测试')
-            }
+            // log() {
+            //     console.log('测试')
+            // }
         }
     }
 </script>
