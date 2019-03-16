@@ -13,6 +13,7 @@
 <script>
     export default {
         name: 'GuluToast',
+        inject: ['eventBus'],
         props: {
             autoClose: {
                 type: [Boolean,Number],
