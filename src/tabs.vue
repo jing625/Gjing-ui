@@ -33,9 +33,9 @@
         },
         mounted() {
             this.$children.forEach((vm) => {
-                if (vm.$options.name === 'GuluTabsHead') {
+                if (vm.$options.name === 'GuluTabsHead') {  //第一次遍历找到tabsHead
                     vm.$children.forEach((childVm) => {
-                        if (childVm.$options.name === 'GuluTabsItem' && childVm.name === this.selected) {
+                        if (childVm.$options.name === 'GuluTabsItem' && childVm.name === this.selected) { //第二次遍历找到tabsItem 且找到被选中的item
                             this.eventBus.$emit('update:selected', this.selected,childVm)
                         }
                     })
