@@ -25,7 +25,7 @@
   ```
 3. 引入 gjing-ui
   ```
-  import {Button, ButtonGroup, Icon} from 'gjing-ui'
+  import {Button,Icon} from 'gjing-ui'
   import 'gjing-ui/dist/index.css'
   export default {
     name: 'app',

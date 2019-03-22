@@ -10,7 +10,7 @@
 </template>
 
 <script>
-    import plugin from '../../../src/plugin'
+    import plugin from '../../../src/toast/plugin'
     import Button from '../../../src/button/button'
     import Vue from 'vue'
 
