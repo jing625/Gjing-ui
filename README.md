@@ -1,4 +1,4 @@
-# 轱辘 - 一个Vue UI 组件
+# GjingUI - 一个Vue UI 组件
 
 [![Build Status](https://www.travis-ci.org/jing625/gulu-demo.svg?branch=master)](https://www.travis-ci.org/jing625/gulu-demo)
 
@@ -17,29 +17,15 @@
   ```
   IE 8 及以上浏览器都支持此样式。
 
-  你还需要设置默认颜色等变量（后续会改为 SCSS 变量）
-  ```
-  html {
-    --button-height: 32px;
-    --font-size: 14px;
-    --button-bg: white;
-    --button-active-bg: #eee;
-    --border-radius: 4px;
-    --color: #333;
-    --border-color: #999;
-    --border-color-hover: #666;
-  }
-  ```
-  IE 15 及以上浏览器都支持此样式。
 
-2. 安装 gulu
+2. 安装 gjing-ui
   ```
-  npm i --save frank-test-1-1
+  npm i --save gjing-ui
   ```
-3. 引入 gulu
+3. 引入 gjing-ui
   ```
-  import {Button, ButtonGroup, Icon} from 'jingulu-demo'
-  import 'jingulu-demo/dist/index.css'
+  import {Button, ButtonGroup, Icon} from 'gjing-ui'
+  import 'gjing-ui/dist/index.css'
   export default {
     name: 'app',
     components: {
@@ -48,16 +34,9 @@
     }
   }
   ```
-4. 引入 svg symbols
-  ```
-  <script src="//at.alicdn.com/t/font_966770_6dg07b2um4u.js"></script>
-  ```
 
-## 文档
+## 文档 
 
-## 提问
-
-## 变更记录
 
 ## 联系方式
 

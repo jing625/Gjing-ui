@@ -13,7 +13,7 @@
 <script>
     export default {
         name: 'GjingToast',
-        inject: ['eventBus'],
+        // inject: ['eventBus'],
         props: {
             autoClose: {
                 type: [Boolean,Number],
@@ -112,6 +112,7 @@
         left: 50%;
         transform: translateX(-50%);
         $animation-duration: .5s;
+        z-index: 100;
         &.position-top {
             top: 0;
             .toast {
@@ -157,6 +158,7 @@
             .close {
                 padding-left: 16px;
                 flex-shrink: 0;
+                cursor: pointer;
             }
         }
     }
