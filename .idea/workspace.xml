@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69f51c84-92ce-4cff-abd3-5db5ce5ffcb8" name="Default Changelist" comment="响应式基本完成">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="69f51c84-92ce-4cff-abd3-5db5ce5ffcb8" name="Default Changelist" comment="响应式基本完成" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -115,7 +113,7 @@
           <entry key="html" value="838" />
           <entry key="js" value="1650" />
           <entry key="json" value="82" />
-          <entry key="md" value="821" />
+          <entry key="md" value="839" />
           <entry key="sh" value="15" />
           <entry key="txt" value="138" />
           <entry key="vue" value="4673" />
@@ -126,7 +124,7 @@
           <entry key="HTML" value="852" />
           <entry key="JSON" value="82" />
           <entry key="JavaScript" value="1650" />
-          <entry key="PLAIN_TEXT" value="974" />
+          <entry key="PLAIN_TEXT" value="992" />
           <entry key="Vue.js" value="4659" />
         </counts>
       </usages-collector>
@@ -189,7 +187,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+              <caret line="2" column="123" selection-start-line="2" selection-start-column="123" selection-end-line="2" selection-end-column="123" />
             </state>
           </provider>
         </entry>
@@ -643,7 +641,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114997000" />
+    <option name="totallyTimeSpent" value="115158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1080,7 +1078,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <caret line="2" column="123" selection-start-line="2" selection-start-column="123" selection-end-line="2" selection-end-column="123" />
         </state>
       </provider>
     </entry>
