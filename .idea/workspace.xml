@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f51c84-92ce-4cff-abd3-5db5ce5ffcb8" name="Default Changelist" comment="响应式基本完成">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/collapse-demo1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/collapse-demo2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/popover-demo1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/popover-demo2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/toast-demo1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/toast-demo2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/components/toast-demo3.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/components/collapse.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/components/popover.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/popover.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/components/toast.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/toast.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -129,7 +115,7 @@
           <entry key="html" value="838" />
           <entry key="js" value="1650" />
           <entry key="json" value="82" />
-          <entry key="md" value="776" />
+          <entry key="md" value="821" />
           <entry key="sh" value="15" />
           <entry key="txt" value="138" />
           <entry key="vue" value="4673" />
@@ -140,7 +126,7 @@
           <entry key="HTML" value="852" />
           <entry key="JSON" value="82" />
           <entry key="JavaScript" value="1650" />
-          <entry key="PLAIN_TEXT" value="929" />
+          <entry key="PLAIN_TEXT" value="974" />
           <entry key="Vue.js" value="4659" />
         </counts>
       </usages-collector>
@@ -202,8 +188,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="30">
+              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -657,7 +643,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114708000" />
+    <option name="totallyTimeSpent" value="114997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1093,8 +1079,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
         </state>
       </provider>
     </entry>

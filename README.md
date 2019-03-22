@@ -1,6 +1,6 @@
 # GjingUI - 一个Vue UI 组件
 
-[![Build Status](https://www.travis-ci.org/jing625/gulu-demo.svg?branch=master)](https://www.travis-ci.org/jing625/gulu-demo)
+[![Build Status](https://www.travis-ci.org/jing625/Gjing-ui.svg?branch=master)](https://www.travis-ci.org/jing625/Gjing-ui)
 
 ## 介绍
 
@@ -35,7 +35,7 @@
   }
   ```
 
-## 文档 
+## 文档
 
 
 ## 联系方式
