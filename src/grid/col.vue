@@ -15,7 +15,7 @@
         return valid
     }
     export default {
-        name: 'GuluCol',
+        name: 'GjingCol',
         props: {
             span: {
                 type: [Number, String]
@@ -48,9 +48,11 @@
             },
             colStyle() {
                 // let {gutter} = this
-                return {
-                    paddingLeft: this.gutter / 2 + 'px',
-                    paddingRight: this.gutter / 2 + 'px'
+                if(this.gutter){
+                    return {
+                        marginLeft: this.gutter/2 + 'px',
+                        marginRight: this.gutter/2  + 'px',
+                    }
                 }
             }
         },
@@ -68,9 +70,9 @@
 </script>
 <style lang="scss" scoped>
     .col {
-        height: 100px;
+        height: 50px;
         background: grey;
-        border: 1px solid red;
+        border: 1px solid #44ae7d;
         $class-prefix: col-;
         @for $n from 1 through 24 {
             &.#{$class-prefix}#{$n} {

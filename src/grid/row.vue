@@ -5,7 +5,7 @@
 </template>
 <script>
     export default {
-        name: 'GuluRow',
+        name: 'GjingRow',
         props: {
             gutter: {
                 type: [Number, String]
@@ -19,10 +19,10 @@
         },
         computed: {
             rowStyle() {
-                // let {gutter} = this
+                let {gutter} = this
                 return {
-                    marginLeft: -this.gutter / 2 + 'px',
-                    marginRight: -this.gutter / 2 + 'px'
+                    marginLeft: -gutter / 2 + 'px',
+                    marginRight: -gutter / 2 + 'px'
                 }
             },
             rowClass() {
@@ -39,7 +39,7 @@
 <style lang="scss" scoped>
     .row {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         &.align-left {
             justify-content: flex-start;
         }

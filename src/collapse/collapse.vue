@@ -8,7 +8,7 @@
     import Vue from 'vue'
 
     export default {
-        name: "GuluCollapse",
+        name: "GjingCollapse",
         props: {
             single: {
                 type: Boolean,

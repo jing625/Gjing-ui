@@ -12,7 +12,7 @@
 </template>
 <script>
     export default {
-        name: 'GuluToast',
+        name: 'GjingToast',
         inject: ['eventBus'],
         props: {
             autoClose: {

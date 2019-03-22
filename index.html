@@ -29,14 +29,30 @@
         }
 
         #app {
-            padding: 100px;
+            /*padding: 100px;*/
         }
     </style>
 
 </head>
 <body>
 <div id="app">
-   <g-button>123123</g-button>
+    <g-tabs :selected.sync="tabs">
+        <g-tabs-head>
+            <g-tabs-item name="one">one</g-tabs-item>
+            <g-tabs-item name="two" disabled >
+                two
+            </g-tabs-item>
+            <g-tabs-item name="three">
+                three
+            </g-tabs-item>
+        </g-tabs-head>
+        <g-tabs-body>
+            <g-tabs-pane name="one">内容 1</g-tabs-pane>
+            <g-tabs-pane name="two">内容 2</g-tabs-pane>
+            <g-tabs-pane name="three">内容 3</g-tabs-pane>
+        </g-tabs-body>
+    </g-tabs>
+
 </div>
 <script src="./src/app.js"></script>
 <!--<script src="//at.alicdn.com/t/font_966770_6dg07b2um4u.js"></script>-->

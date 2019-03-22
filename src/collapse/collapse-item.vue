@@ -11,7 +11,7 @@
 
 <script>
     export default {
-        name: "GuluCollapse-item",
+        name: "GjingCollapse-item",
         inject: ['eventBus'],
         props: {
             title: {

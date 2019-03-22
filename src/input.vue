@@ -18,7 +18,7 @@
 
     export default {
         components: {Icon},
-        name: 'GuluInput',
+        name: 'GjingInput',
         props: {
             value: {
                 type: String,

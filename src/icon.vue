@@ -11,7 +11,8 @@
 </script>
 <style lang="scss" scoped>
     .g-icon {
-        width: 1em;
-        height: 1em;
+        width: 1.3em;
+        height: 1.3em;
+        vertical-align: -0.15em;
     }
 </style>

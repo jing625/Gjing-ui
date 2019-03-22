@@ -5,7 +5,7 @@
 </template>
 <script>
     export default {
-        name: 'GuluTabsItem',
+        name: 'GjingTabsItem',
         inject: ['eventBus'],
         data() {
             return {
@@ -47,7 +47,7 @@
     }
 </script>
 <style lang="scss" scoped>
-    $active-text-color: blue;
+    $active-text-color: #44ae7d;
     $disabled-text-color: grey;
     .tabs-item {
         flex-shrink: 0;
@@ -56,11 +56,15 @@
         height: 100%;
         display: flex;
         align-items: center;
+        &:hover{
+            color:$active-text-color
+        }
         &.active {
-            background: $active-text-color;
+            color: $active-text-color;
+            font-weight: bold;
         }
         &.disabled {
-            background: $disabled-text-color;
+            color: $disabled-text-color;
             cursor: not-allowed;
         }
     }

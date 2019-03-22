@@ -1,16 +1,18 @@
 module.exports = {
+    base: '/Gjing-ui/',
     title: 'Gjing-ui',
     description: '一个好用的UI框架',
     themeConfig: {
         nav: [
-            {text: '主页', link: '/'},
-            {text: '文档', link: '/guide/'},
-            {text: '交流', link: 'https://google.com'},
+            {text: '指南', link: '/introduce/'},
+            {text: '组件', link: '/components/button'},
+            {text: 'GitHub', link: 'https://github.com/jing625/Gjing-ui'},
         ],
         sidebar: [
             {
-                title: '入门',
+                title: '指南',
                 children: [
+                    '/introduce/',
                     '/install/',
                     '/get-started/',
                 ]
@@ -18,11 +20,12 @@ module.exports = {
             {
                 title: '组件',
                 children: [
+                    '/components/icon',
                     '/components/button',
-                    '/components/tabs',
                     '/components/input',
                     '/components/grid',
                     '/components/layout',
+                    '/components/tabs',
                     '/components/toast',
                 ]
             },

@@ -5,7 +5,7 @@
 </template>
 <script>
     export default {
-        name: 'GuluTabsBody',
+        name: 'GjingTabsBody',
         inject: ['eventBus'],
         created(){
             console.log(this.eventBus)

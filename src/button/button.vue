@@ -1,5 +1,5 @@
 <template>
-    <button class="g-button" :class="{[`icon-${iconPosition}`]:true}" @click="$emit('click')">
+    <button class="g-button" :class="classes" @click="$emit('click')">
         <g-icon class="icon" v-if="icon&&!loading" :name="icon"></g-icon>
         <g-icon class="loading icon" v-if="loading" name="loading"></g-icon>
         <div class="content">
@@ -8,7 +8,8 @@
     </button>
 </template>
 <script>
-    import Icon from './icon'
+    import Icon from '../icon'
+
     export default {
         // props: ['icon', 'iconPosition']
         components: {
@@ -26,8 +27,20 @@
                 validator(value) {
                     return value === 'left' || value === 'right';
                 }
+            },
+            disabled: {
+                type: Boolean,
+                default: false
+            },
+        },
+        computed: {
+            classes() {
+                return {
+                    [`icon-${this.iconPosition}`]: true,
+                    disabled: this.disabled,
+                }
             }
-        }
+        },
     }
 
 </script>
@@ -60,6 +73,7 @@
         justify-content: center;
         align-items: center;
         vertical-align: middle;
+        cursor: pointer;
         &:hover {
             border-color: $border-color-hover;
         }
@@ -88,6 +102,12 @@
             > .content {
                 order: 1;
             }
+        }
+        &.disabled {
+            border: 1px solid rgb(153, 153, 153);
+            color: rgb(153, 153, 153);
+            background: white;
+            cursor: not-allowed;
         }
         > .loading {
             animation: spin 2s infinite linear

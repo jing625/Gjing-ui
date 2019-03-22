@@ -1,24 +1,11 @@
 <template>
-    <div class="header">
-        <slot></slot>
-    </div>
-</template>
-
-<style lang="scss" scoped>
-    .header {
-    }
-</style>
-
-36  src/layout.vue
-@@ -0,0 +1,36 @@
-<template>
     <div class="layout" :class="layoutClass">
         <slot></slot>
     </div>
 </template>
 <script>
     export default {
-        name: 'GuluLayout',
+        name: 'GjingLayout',
         data () {
             return {
                 layoutClass: {
@@ -28,7 +15,7 @@
         },
         mounted () {
             this.$children.forEach((vm) => {
-                if (vm.$options.name === 'GuluSider') {
+                if (vm.$options.name === 'GjingSider') {
                     this.layoutClass.hasSider = true
                 }
             })
