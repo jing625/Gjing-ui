@@ -1,6 +1,6 @@
 # GjingUI - 一个Vue UI 组件
 
-[![Build Status](https://www.travis-ci.org/jing625/Gjing-ui.svg?branch=master)](https://www.travis-ci.org/jing625/Gjing-ui)
+[![Build Status](https://www.travis-ci.org/jing625/Gjing-ui.svg?branch=master)](https://www.travis-ci.org/jing625/Gjing-ui)![NPM](https://img.shields.io/npm/l/gjing-ui.svg)
 
 ## 介绍
 
