@@ -12,6 +12,12 @@
         name: "demo",
         components: {
             'g-button': Button
+        },
+        mounted(){
+            console.log(this)
+        },
+        methods:{
+
         }
     }
 </script>

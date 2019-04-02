@@ -50,8 +50,8 @@
 </script>
 
 <style lang="scss" scoped>
+    @import "../var";
     $grey: #ddd;
-    $border-radius: 4px;
     .collapseItem {
         > .title {
             border: 1px solid $grey;
