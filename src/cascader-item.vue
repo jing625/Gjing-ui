@@ -1,10 +1,23 @@
 <template>
-    $END$
+    <div class="cascaderItem">
+            {{sourceItem.name}}
+            <gjing-cascader-item
+                    v-if="sourceItem.children"
+                    v-for="item in sourceItem.children"
+                    :sourceItem="item"
+            ></gjing-cascader-item>
+    </div>
 </template>
 
 <script>
     export default {
-        name: "cascader-item"
+        name: "GjingCascaderItem",
+        props:{
+            sourceItem:{
+                type:Object
+            }
+        }
+
     }
 </script>
 
